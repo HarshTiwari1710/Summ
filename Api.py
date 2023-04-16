@@ -7,7 +7,7 @@ from sumy.summarizers.lex_rank import LexRankSummarizer
 app = Flask(__name__)
 
 # Connect to the MongoDB server
-client = pymongo.MongoClient('mongodb://localhost:27017/')
+client = pymongo.MongoClient('mongodb+srv://harshtiwari1711:1234@summazer.cgghj4t.mongodb.net/?retryWrites=true&w=majority')
 db = client['Summazer']
 collection = db['summaries']
 
